@@ -59,8 +59,7 @@ namespace TarefaSerasa06
 
             }
 
-            else if (dia >= 6
-                )
+            else if (dia >= 6)
             {
                 Console.WriteLine(" Dia inválido");
                 return;
