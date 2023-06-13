@@ -52,17 +52,18 @@ namespace TarefaSerasa06
             Console.WriteLine(" Agora digite um dia entre eles: ");
             dia = (int)double.Parse(s: Console.ReadLine());
 
-            if (dia <= 21) 
+            if (dia >= 6 && dia <= 21) 
             {
 
                 Console.WriteLine("É isso ai!!! Estamos quase finalizando o seu pedido");
 
             }
 
-            else if (dia >= 6)
+            
             {
                 Console.WriteLine(" Dia inválido");
-                return;
+                Main(null);
+                 return;
             }
            
 
